@@ -1,0 +1,15 @@
+package grapes;
+
+enum Color {
+  BLACK = 1;
+  WHITE = 2;
+  ROSE = 3;
+}
+
+message Grape {
+  optional string name = 1;
+  optional Color color = 2;
+  repeated string alt_names = 3;
+  repeated string regions = 4;
+}
+
