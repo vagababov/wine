@@ -9,7 +9,9 @@ enum Color {
 message Grape {
   optional string name = 1;
   optional Color color = 2;
-  repeated string alt_names = 3;
-  repeated string regions = 4;
+  optional string parent1 = 3;
+  optional string parent2 = 4;
+  repeated string regions = 5;
+  repeated string alt_names = 6;
 }
 
